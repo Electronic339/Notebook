@@ -1,0 +1,60 @@
+body {
+background: linear-gradient(to right, purple, #002269);
+}
+
+
+
+.add {
+  cursor:default;
+  /*margin-bottom: 50px;
+margin-top: 50px;*/
+width: 90px;
+height: 90px;
+
+}
+
+
+
+
+.note {
+  color: white;
+padding: 20px;
+margin: 20px;
+border-radius: 50%;
+}
+.todo {
+  width: 350px;
+  height: 350px;
+}
+
+.notebook {
+
+}
+
+
+
+.mane-list{
+  color: grey;
+  background: black;
+opacity: 0.5;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  margin-left: 250px;
+    margin-right: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+#Item{
+transition: color 0.5s ease;
+}
+
+#Item:hover{
+  color: white;
+  cursor: default;
+}
+#form{
+font-size: 30px;
+font-family: 'Pacifico', cursive;
+border-radius: 4px;
+}
